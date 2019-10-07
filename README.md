@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was build with MongoDB,Express,React,NodeJS + GraphQl
+
+## Restore Database/Collection
+
+### `mongorestore --host localhost --port 27017 --db **** db-dump/football`
 
 ## Available Scripts
 
