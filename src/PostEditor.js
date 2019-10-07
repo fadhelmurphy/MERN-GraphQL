@@ -110,7 +110,7 @@ const PostEditor = ({ post, onClose }) => (
           </ModalBody>
           <ModalFooter>
             <Button type="submit" disabled={pristine} color="primary">Save</Button>
-            <Button type="button" color="danger" onClick={deleteEvent.bind(this, post._id,onClose)}>Delete</Button>
+            {post._id ? (<Button type="button" color="danger" onClick={deleteEvent.bind(this, post._id,onClose)}>Delete</Button>) : ''}
             <Button color="secondary" onClick={onClose}>Cancel</Button>
           </ModalFooter>
         </Form>
