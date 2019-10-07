@@ -1,4 +1,4 @@
-This project was build with MongoDB,Express,React,NodeJS + GraphQl
+This project was build with MongoDB,Express,React,NodeJS + GraphQL
 
 ## Restore Database/Collection
 
